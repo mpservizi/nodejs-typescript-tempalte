@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-typescript-tempalte",
+  "version": "1.0.0",
+  "description": "Progetto da usare come tempalte per sviluppo node js",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development tsx watch src/index.ts",
+    "build": "tsc && tsc-alias",
+    "start": "cross-env NODE_ENV=production node dist/index.js"
+  },
+  "keywords": [],
+  "author": "Malkit Sandhu",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "cross-env": "^10.1.0",
+    "tsc-alias": "^1.8.16",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.1"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "types": ["node"],
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "baseUrl": ".", //Serve per usare path alias
+    "ignoreDeprecations": "6.0", //Evita warinig per utilizzo di baseUrl
+    "outDir": "dist",
+    "rootDir": "src",
+
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src"]
+}
