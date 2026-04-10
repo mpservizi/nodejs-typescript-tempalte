@@ -1,4 +1,4 @@
-import { env } from "./env.js";
+import { env } from "@/config/env.js";
 import { readFileJson } from "@/app.js";
 
 const main = async () => {
